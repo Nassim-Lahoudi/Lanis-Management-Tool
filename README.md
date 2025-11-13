@@ -1,5 +1,5 @@
 <h1>📚 Lanis Management Program</h1>
-<p><strong>Lanis Management Program</strong> is a user-friendly desktop application for managing Schulportal Hessen data via the <a href="[https://github.com/lanisapi/lanisapi](https://github.com/lanis-mobile/LanisAPI)">LanisAPI</a>. It provides a graphical interface (Tkinter) for secure login and access to school-related information such as tasks and substitution plans.</p>
+<p><strong>Lanis Management Program</strong> is a user-friendly desktop application for managing Schulportal Hessen data via the <a href="https://github.com/lanis-mobile/LanisAPI">LanisAPI</a>. It provides a graphical interface (Tkinter) for secure login and access to school-related information such as tasks and substitution plans.</p>
 
 <h2>🚀 Features</h2>
 <ul>
@@ -27,7 +27,7 @@ cd lanis-management-program</code></li>
 
 <h2>📦 Dependencies</h2>
 <ul>
-<li><a href="[https://github.com/lanisapi/lanisapi](https://github.com/lanis-mobile/LanisAPI)">lanisapi</a></li>
+<li><a href="https://github.com/lanis-mobile/LanisAPI">lanisapi</a></li>
 <li>tkinter (included with Python)</li>
 </ul>
 
