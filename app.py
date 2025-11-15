@@ -81,7 +81,6 @@ def userinterface_window():
 
         threading.Thread(target=auth_thread, daemon=True).start()
 
-
     def show_connection_window():
         connection_window = tk.Toplevel(window)
         connection_window.title('Check Connection & User Information')
@@ -144,7 +143,6 @@ def userinterface_window():
 
         check_internet_connection()
 
-
     def show_password_function():
         password_entry.configure(show="" if show_password_var.get() else "*")
 
@@ -152,7 +150,7 @@ def userinterface_window():
         if messagebox.askquestion('Warning', 'Are you sure?', icon='warning') == 'yes':
             window.quit()
 
-    # window.protocol('WM_DELETE_WINDOW', quit_function)
+    window.protocol('WM_DELETE_WINDOW', quit_function)
 
     # Header
     tk.Label(window, text='Lanis Management Tool', bg='#F3F3F3', font='Arial 20 bold').pack(anchor='n', pady=20)
